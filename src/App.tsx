@@ -1,11 +1,22 @@
-import { useState } from 'react'
-import './styles/modules/app.module.scss'
+import EditForm from './components/EditForm'
+import Header from './components/Header'
+import TodoForm from './components/TodoForm'
+import TodoList from './components/TodoList'
+import Toolbar from './components/Toolbar'
 
 function App() {
 
   return (
-    <div className="container">
-      <h1>Olá mundo</h1>
+    <div className="todo-container">
+        <Header />
+
+        <TodoForm />
+
+        <EditForm />
+
+        <Toolbar />
+      
+        <TodoList />
     </div>
   )
 }
