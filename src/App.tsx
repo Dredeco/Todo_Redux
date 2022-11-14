@@ -15,8 +15,6 @@ function App() {
         <EditForm />
 
         <Toolbar />
-      
-        <TodoList />
     </div>
   )
 }
